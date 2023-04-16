@@ -1,2 +1,3 @@
 # kryptonite
-A simple scripting language targeted for kids and beginners.
+
+Yeni başlayanlar için geliştirilmiş, her yaşa uygun bir programlama dili.
