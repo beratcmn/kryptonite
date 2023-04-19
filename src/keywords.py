@@ -1,3 +1,4 @@
+COMMENT_PREFIX = "#"
 KEYWORDS: dict[str:str] = {
     "yazdır": "print",
     "eğer": "if",
