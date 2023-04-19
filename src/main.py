@@ -15,7 +15,12 @@ def main(args: list):
     string_tokens = []
 
     for line in lines:
-        string_tokens.extend(string2int.convert(line.text))
+        tokens = string2int.convert(line.text)
+        string_tokens.extend(tokens)
+        for string_token in tokens:
+            line.text = line.text.replace(
+                f'"{string_token.value}"', str(string_token.int_index)
+            )
 
 
 if __name__ == "__main__":
