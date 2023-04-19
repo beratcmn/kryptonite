@@ -1,4 +1,4 @@
-KEYWORDS = {
+KEYWORDS: dict[str:str] = {
     "yazdır": "print",
     "eğer": "if",
     "değilse": "else",
